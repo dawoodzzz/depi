@@ -6,6 +6,7 @@ students = {
     "mohamed": [80,50,60,30,100],
     "abdullah": [90,82,88,78,95],
     "yousif": [80,77,60,50,100],    
+}
 
 for student, grades in students.items():
     print(grads.get_student_summary(student, grades))
